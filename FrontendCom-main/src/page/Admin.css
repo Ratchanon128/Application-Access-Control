@@ -1,0 +1,89 @@
+.admin-logs {
+
+  border: 1px solid #e0e0e0; /* ขอบ */
+  border-radius: 8px; /* มุมโค้ง */
+  width: 100%; /* ความกว้างของ container */
+  margin: 20px auto; /* จัดกลาง */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* เงา */
+
+
+}
+
+.header {
+  background-image: url('https://images-ext-1.discordapp.net/external/jT_ZIHR_KZXvSy2PZ3cO4uW4uQfEcnNeGkn5R7mTO6g/https/i.pinimg.com/originals/44/69/21/44692129b79f7592aa9e12a922393c9a.jpg?format=webp&width=505&height=670');
+  padding: 0px; /* ช่องว่างภายใน */
+  text-align: center; /* จัดกลาง */
+
+}
+
+.header h1{
+  color: rgb(255, 255, 255); /* สีตัวอักษร */
+  font-size: 50px; /* ขนาดตัวอักษร */
+  padding-top: 70px;
+  text-shadow: 2px 2px 4px rgb(102, 95, 90); /* เงาเบลอเพื่อเพิ่มความลึก */
+}
+
+.logs-container {
+  padding: 50px; /* ช่องว่างภายใน */
+}
+
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse; /* ทำให้เส้นแบ่งแถวและคอลัมน์เรียบ */
+  text-align: left;
+}
+
+.logs-table th, .logs-table td {
+  padding: 12px;
+  border: 1px solid #ddd; /* เส้นขอบสำหรับเซลล์ */
+}
+
+.logs-table th {
+  background-color: #f4f4f4; /* สีพื้นหลังของหัวตาราง */
+  font-weight: bold; /* ทำให้หัวตารางหนา */
+}
+
+.logs-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* สีพื้นหลังของแถวที่เป็นเลขคู่ */
+}
+
+.logs-table tr:hover {
+  background-color: #f1f1f1; /* เปลี่ยนสีเมื่อมีการเลื่อนเมาส์ */
+}
+
+/* ให้มีเส้นตารางทั้งหมด */
+.logs-table {
+  border: 2px solid #ddd; /* เส้นขอบรอบตาราง */
+}
+
+.logs-table th {
+  border-bottom: 2px solid #ccc; /* เส้นขอบด้านล่างของหัวตาราง */
+}
+
+.logs-table td {
+  border-bottom: 1px solid #eee; /* เส้นขอบด้านล่างของแต่ละเซลล์ */
+}
+
+.scale-0-8 {
+  transform: scale(0.82);
+  transform-origin: top center; /* ปรับตำแหน่งการเริ่มต้น */
+  overflow: hidden; /* เพื่อหลีกเลี่ยงการเกิด overflow */
+}
+
+
+.logout-button {
+  background-color: #f961bf;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 90%;
+}
+
+.logout-button:hover {
+  background-color: #ff1f3a;
+}
